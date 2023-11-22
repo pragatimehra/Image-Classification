@@ -26,8 +26,8 @@ Phase 2 : Data Cleaning
 
 In the data cleaning process for our project, we prioritize image refinement due to potential issues during the download. Emphasizing the significance of detecting persons in images, our approach involves using facial features like height, hands, and legs. However, the primary focus is on facial recognition. To ensure clarity, we employ OpenCV, a renowned Python image processing library, utilizing the Haar Cascade technique for precise detection of faces and eyes. Images with a clear face and two eyes are retained, while others are discarded to enhance the accuracy of our face detection process.
 
-For cleaning, we require the modules listed in `requirements.txt`. Install them in `Model` folder via Terminal.
-% cd Desktop
-Desktop % cd Image\ Classification 
-Image Classification % cd Model
-Model % pip install -r requirements.txt
+For cleaning, we require the modules listed in `requirements.txt`. Install them in `Model` folder via Terminal. <br>
+% cd Desktop <br>
+% cd Image\ Classification <br>
+% cd Model <br>
+% pip install -r requirements.txt
