@@ -31,3 +31,9 @@ For cleaning, we require the modules listed in `requirements.txt`. Install them 
 % cd Image\ Classification <br>
 % cd Model <br>
 % pip install -r requirements.txt
+
+<hr>
+
+Phase 3 : Feature Engineering
+
+In this phase, we perform feature engineering using the wavelet transformation technique to extract essential facial features such as eyes, nose, and lips. When applied to a colorful image, the wavelet transformation yields an output that appears black-and-white yet retains vital details. This transformation is pivotal for computer-based facial recognition, as it distinguishes features like eyes from the forehead and improves the visibility of the nose. The resulting image, marked by a pronounced black and white contrast, simplifies the classification of intricate, colorful facial images with diverse shades.
