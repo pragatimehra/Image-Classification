@@ -26,7 +26,7 @@ Phase 2 : Data Cleaning
 
 In the data cleaning process for our project, we prioritize image refinement due to potential issues during the download. Emphasizing the significance of detecting persons in images, our approach involves using facial features like height, hands, and legs. However, the primary focus is on facial recognition. To ensure clarity, we employ OpenCV, a renowned Python image processing library, utilizing the Haar Cascade technique for precise detection of faces and eyes. Images with a clear face and two eyes are retained, while others are discarded to enhance the accuracy of our face detection process.
 
-Refer to file: Sports Celebrity Classification
+Refer to file: [Sports Celebrity Classification](https://github.com/pragatimehra/Image-Classification/blob/main/Sports%20Celebrity%20Image%20Classification.ipynb)
 
 For cleaning, we require the modules listed in `requirements.txt`. Install them in `Model` folder via Terminal. <br>
 % cd Desktop <br>
