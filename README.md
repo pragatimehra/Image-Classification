@@ -1,5 +1,7 @@
 # Image Classification
 
+_Project is still under development phase._
+
 Our ultimate goal is to develop a user-friendly website that enables users to effortlessly drag and drop an image of a sports person. The website will then promptly identify the specific sport associated with the individual in the image. We will be focused on classifying images into five distinct categories, featuring famous sports celebrities.
 
 To ensure a diverse dataset, we will utilize images sourced from Google, showcasing various sports personalities. Subsequently, we will delve into feature engineering, employing the renowned image processing library, OpenCV. This exploration will include transformative techniques crucial for training Support Vector Machine (SVM) classifiers and logistic regression classifiers.
@@ -37,5 +39,8 @@ For cleaning, we require the modules listed in `requirements.txt`. Install them 
 <hr>
 
 Phase 3 : Feature Engineering
+
+Refer to file: [Sports Celebrity Classification](https://github.com/pragatimehra/Image-Classification/blob/main/Sports%20Celebrity%20Image%20Classification.ipynb)
+<br> _Please note: Feature engineering is still under development phase._
 
 In this phase, we perform feature engineering using the wavelet transformation technique to extract essential facial features such as eyes, nose, and lips. When applied to a colorful image, the wavelet transformation yields an output that appears black-and-white yet retains vital details. This transformation is pivotal for computer-based facial recognition, as it distinguishes features like eyes from the forehead and improves the visibility of the nose. The resulting image, marked by a pronounced black and white contrast, simplifies the classification of intricate, colorful facial images with diverse shades.
